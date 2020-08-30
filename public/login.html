@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="https://dashboard.covid19.data.gouv.fr/images/favicon.ico"/>
+    <link rel="stylesheet" href="style_login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    <form action="../login" method="POST" class="form">
+       <h1>Login</h1>
+       <i class="fas fa-user" aria-hidden="true"></i>
+       <input type="text" name="username" placeholder="Username" class="textbox" required><br>
+       <i class="fas fa-lock" aria-hidden="true"></i>
+        <input type="password" name="password" placeholder="password" class="textbox" required><br>
+        <input type="submit" value="login" id="submit">
+
+    </form>
+
+
+</body>
+</html>

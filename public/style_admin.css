@@ -1,0 +1,106 @@
+body{
+    margin:0;
+
+}
+
+.formulaire{
+   display: grid;
+   width: 30%;
+   left: 10%;
+   position: absolute;
+   top: 7%;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .formulaire input{
+
+    width: 60%;
+    border-radius: 3%;
+  }
+
+#submit{
+
+    padding: 5px;
+    margin-top: 5px;
+    width: 30%;
+    right: -190%;
+    top: 10%;
+    position: absolute;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:21px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#031114;
+	font-family:Georgia;
+	font-size:17px;
+	padding:0.5px 0,5px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+    text-emphasis-color: white;
+
+
+  }
+
+label{
+
+    font:bold;
+    font-family: sans-serif;
+    margin: 2px;
+}
+
+.formulaire2{
+
+position: absolute;
+width: 70%;
+left: 100%;
+position: absolute;
+top: 2%;
+
+}
+
+
+#cas_deces{
+    position: absolute;
+    right: -35%;
+}
+
+#taux{
+    position: absolute;
+    right: -103%;
+}
+
+.formulaire2 label[for="casa"]{
+
+   margin-bottom: 10px;
+}
+
+input{
+    margin: 3px;
+    padding: 5px;
+}

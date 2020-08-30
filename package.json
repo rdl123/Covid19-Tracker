@@ -1,0 +1,17 @@
+{
+  "name": "projet_sig_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connexion.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "Rami",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.0.3"
+  }
+}

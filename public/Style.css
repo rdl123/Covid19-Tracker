@@ -1,0 +1,511 @@
+#large_map {
+  border: 2px solid  ;
+  height: 62%;
+  position: absolute;
+  top: 9.8%;
+  width: 67%;
+  left: 1.8%;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  display: block;
+  background-color: lightskyblue;
+}
+.top{
+  text-align: center;
+  width: 100%;
+  height:30px;
+
+  background-color: white;
+
+}
+
+.middle{
+    margin-top:50px ;
+    height: 500px;
+    width: 100%;
+  
+    
+}
+
+.statistique1{
+    width: 29.5%;
+    height:43.5%;
+    top: 10%;
+    left: 70%;
+    float: left;
+    margin-right: 15px;
+    position: absolute;
+    
+}
+
+.statistique2{
+    border: 2px solid;
+    background-color: white;
+    width: 28.5%;
+    height: 41%;
+    top: 57%;
+    left: 70%;
+    float: left;
+    margin-right: 15px;
+    position: absolute;
+    
+}
+
+.nombre{
+  width: 67.5%;
+  height: 20%;
+  top: 78%;
+  left: 2%;
+    display: inline-block;
+    position: absolute;
+}
+
+.confirmé{
+    background-color: white;
+    border: 2px solid;
+    width: 16%;
+    height: 100%;
+    left: 0px;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.exlu{
+    background-color: white;
+    border: 2px solid;
+    width: 16%;
+    height: 100%;
+    left: 16.66%;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.deces{
+    background-color: white;
+    border: 2px solid;
+    width: 16%;
+    height: 100%;
+    left: 33.33%;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.Guéris{
+    background-color: white;
+    border: 2px solid;
+    width: 16%;
+    height: 100%;
+    left: 49.99%;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.sex{
+    background-color: white;
+    border: 2px solid;
+    width: 16%;
+    height: 100%;
+    left: 66.65%;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.pourcentage{
+    background-color: white;
+    border: 2px solid;
+    width: 16%;
+    height: 100%;
+    left: 83.31%;
+    display: inline-block;
+    margin-right: 20px;
+    position: absolute;
+}
+
+
+
+
+.map{
+    
+    
+    
+    margin-top: 10px;
+    overflow: hidden;
+    margin: 0px;
+    display: inline-block;
+
+}
+.map1{
+
+    border: 1px solid ;
+    top: 8%;
+    margin: 10px;
+    width: 33%;
+    height: 57%;
+    left: 1.5%;
+    display: inline-block;
+    position: absolute;
+    
+    
+
+
+
+}
+
+.map2{
+    border: 1px solid ;
+    top: 8%;
+    margin: 10px;
+    width: 33%;
+    height: 57%;
+    left: 35%;
+    display: inline-block;
+    position: absolute;
+}
+
+.map_center{
+  border: 1px solid ;
+  top: 7%;
+  margin: 10px;
+  width: 66%;
+  height: 60%;
+  left: 1.5%;
+  display: inline-block;
+  position: absolute;
+}
+
+body{
+    background-color : darkslategray;
+    margin: 0;
+}
+
+.titre_map1{
+
+    width:495px;
+    height:15px;
+    text-align: center;
+
+}
+.titre_map2{
+
+    width:495px;
+    height:15px;
+    text-align: center;
+    
+
+}
+
+i {
+    position: absolute;
+    left: 30px;
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+    border: 2px solid;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    float: left;
+    margin-right: 15px;
+    position: absolute;
+  }
+
+  .slideshow-container2 {
+    border: 2px solid;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    float: left;
+    margin-right: 15px;
+    position: absolute;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    color : black;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+
+
+  .legend rect {
+    fill:white;
+    stroke:black;
+    opacity:0.8; }
+
+
+.mySlides {display:none}
+
+#mySidebar{
+
+
+  position: absolute;
+  z-index: 10; 
+  height:30%; 
+  width: 20%;
+  top:8.9% ; 
+  left:57%;
+}
+#mySidebar1{
+
+
+  position: absolute;
+  z-index: 10; 
+  height:30%; 
+  width: 20%;
+  top:8.9% ; 
+  left:74.5%;
+  
+
+}
+.form1{
+  bottom: 22.9%;
+  right: 40%;
+  position: absolute;
+
+}
+
+#evolution_map {
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:21px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#031114;
+	font-family:Georgia;
+	font-size:17px;
+	padding:0.5px 0,5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  bottom: 22.9%;
+  right: 57.5%;
+  position: absolute;
+}
+#evolution_map :hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+#evolution_map :active {
+	position:relative;
+	top:1px;
+}
+#distribution_map  {
+  background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:21px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#031114;
+	font-family:Georgia;
+	font-size:17px;
+	padding:0.5px 0,5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+  bottom: 22.9%;
+  right: 70%;
+  position: absolute;
+}
+#distribution_map  :hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+#distribution_map  :active {
+	position:relative;
+	top:1px;
+}
+
+
+#export-png{
+  bottom: 23.4%;
+  right: 90%;
+  position: absolute;
+  padding: 2px ;
+  border-radius: 12px;
+  background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:21px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#031114;
+	font-family:Georgia;
+	font-size:14px;
+	padding:0.5px 0,5px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #e1e2ed;
+  text-align: center;
+
+}
+#export-png :hover{
+
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+.connexion{
+  position: absolute;
+  right: 2%;
+}
+.ol-tooltip {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  opacity: 0.7;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.ol-tooltip-measure {
+  opacity: 1;
+  font-weight: bold;
+}
+.ol-tooltip-static {
+  background-color: #ffcc33;
+  color: black;
+  border: 1px solid white;
+}
+.ol-tooltip-measure:before,
+.ol-tooltip-static:before {
+  border-top: 6px solid rgba(0, 0, 0, 0.5);
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  margin-left: -7px;
+  left: 50%;
+}
+.ol-tooltip-static:before {
+  border-top-color: #ffcc33;
+}
+
+#type{
+
+  height: 25px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color:#ededed;
+  border:#ededed ;
+}

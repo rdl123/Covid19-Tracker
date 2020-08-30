@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="icon" href="https://dashboard.covid19.data.gouv.fr/images/favicon.ico"/>
+    <link rel="stylesheet" href="./style_admin.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+    <form action="../admin" method="POST" class="formulaire">
+       <h2> data covid</h2>
+        <label for="Nbrcas">nombre de cas Confirmee</label>
+        <input type="text" name="nbrcas" placeholder="entrez valeure ici">
+        <label for="Nbrdecdes">nombre de deces</label>
+        <input type="text" name="nbrdeces" placeholder="entrez valeure ici">
+        <label for="Nbrexclus">nombre des exclus</label>
+        <input type="text" name="nbrexclus" placeholder="entrez valeure ici">
+        <label for="Nbrgueris">nombre de Gueris</label>
+        <input type="text" name="nbrgueris" placeholder="entrez valeure ici">
+        <label for="Age">moyen D'age</label>
+        <input type="text" name="age" placeholder="entrez valeure ici">
+        <div class="formulaire2">
+         <h2> Regions</h2>
+        <label for="casa">CASABLANCA-SETTAT:</label>
+        <input  type="text" name="cas_confirmes" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_deces" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_deces" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">RABAT-SALE-KENITRA:</label>
+        <input  type="text" name="cas_confirmesR" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesR" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesR" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">FES-MEKNES:</label>
+        <input  type="text" name="cas_confirmesF" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesF" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesF" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">ORIENTAL:</label>
+        <input  type="text" name="cas_confirmesO" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesO" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesO" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">BENI MELLAL-KHENIFRA:</label>
+        <input  type="text" name="cas_confirmesB" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesB" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesB" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">MARRAKECH-SAFI:</label>
+        <input  type="text" name="cas_confirmesM" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesM" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesM" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">DRAA-TAFILALET:</label>
+        <input  type="text" name="cas_confirmesD" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesD" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesD" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">TANGER-TETOUAN-Al HOCEIMA:</label>
+        <input  type="text" name="cas_confirmesT" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesT" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesT" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">SOUSS-MASSA:</label>
+        <input  type="text" name="cas_confirmesS" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesS" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesS" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">EGUELMIM-OUED NOUN:</label>
+        <input  type="text" name="cas_confirmesE" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesE" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesE" placeholder="taux deces" id="taux"><br><br>
+        <label for="casa">LAAYOUNE-SAKIA EL HAMRA:</label>
+        <input  type="text" name="cas_confirmesL" placeholder="cas confirmes" id="cas confirmes">
+        <input type="text" name="cas_decesL" placeholder="cas deces"  id="cas_deces" >
+        <input type="text" name="taux_decesL" placeholder="taux deces" id="taux"><br><br>
+        </div>
+        <input type="submit" value="Save" id="submit">
+    </form>
+
+    
+   
+</body>
+</html>
